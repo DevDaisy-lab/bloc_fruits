@@ -8,26 +8,26 @@ import '../models/list_model.dart';
 part 'list_event.dart';
 part 'list_state.dart';
 
-class MyListBloc extends Bloc<MyListEvent, MyListState> {
+class ListBloc extends Bloc<ListEvent, ListState> {
   @override
-  MyListState get initialState => MyListLoading();
+  ListState get initialState => ListLoading();
 
   @override
-  Stream<MyListState> mapEventToState(
-    MyListEvent event,
+  Stream<ListState> mapEventToState(
+    ListEvent event,
   ) async* {
-    if (event is LoadMyList) {
-      yield* _mapLoadMyListToState();
+    if (event is LoadList) {
+      yield* _mapLoadListToState();
     }
   }
 
-  Stream<MyListState> _mapLoadMyListToState() async* {
-    yield MyListLoading();
+  Stream<ListState> _mapLoadListToState() async* {
+    yield ListLoading();
     try {
       await Future.delayed(Duration(milliseconds: 500));
-      yield MyListLoaded(ListModel());
+      yield ListLoaded(ListModel());
     } catch (_) {
-      yield MyListError();
+      yield ListError();
     }
   }
 }

@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         //BlocProvider widget, provides a MyListBloc, in this case, to its children
-        BlocProvider<MyListBloc>(
-          create: (context) => MyListBloc()..add(LoadMyList()),
+        BlocProvider<ListBloc>(
+          create: (context) => ListBloc()..add(LoadList()),
         ),
         //BlocProvider widget, provides a CartBloc, in this case, to its children
         BlocProvider<CartBloc>(

@@ -1,25 +1,25 @@
 part of 'list_bloc.dart';
 
 @immutable
-abstract class MyListState extends Equatable {
-  const MyListState();
+abstract class ListState extends Equatable {
+  const ListState();
 }
 
-class MyListLoading extends MyListState {
+class ListLoading extends ListState {
   @override
   List<Object> get props => [];
 }
 
-class MyListLoaded extends MyListState {
+class ListLoaded extends ListState {
   final ListModel myList;
 
-  const MyListLoaded(this.myList);
+  const ListLoaded(this.myList);
 
   @override
   List<Object> get props => [myList];
 }
 
-class MyListError extends MyListState {
+class ListError extends ListState {
   @override
   List<Object> get props => [];
 }

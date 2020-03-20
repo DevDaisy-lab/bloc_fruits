@@ -17,16 +17,16 @@ class MyList extends StatelessWidget {
           // BlocBuilder is a Flutter widget which requires
           // a Bloc and a builder function.
           // BlocBuilder handles building the widget in response to new states.
-          BlocBuilder<MyListBloc, MyListState>(
+          BlocBuilder<ListBloc, ListState>(
             builder: (context, state) {
-              if (state is MyListLoading) {
+              if (state is ListLoading) {
                 return SliverFillRemaining(
                   child: Center(
                     child: CircularProgressIndicator(),
                   ),
                 );
               }
-              if (state is MyListLoaded) {
+              if (state is ListLoaded) {
                 return SliverList(
                   delegate: SliverChildBuilderDelegate(
                     (context, index) => MyListFruit(

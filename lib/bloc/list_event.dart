@@ -1,11 +1,11 @@
 part of 'list_bloc.dart';
 
 @immutable
-abstract class MyListEvent extends Equatable {
-  const MyListEvent();
+abstract class ListEvent extends Equatable {
+  const ListEvent();
 }
 
-class LoadMyList extends MyListEvent {
+class LoadList extends ListEvent {
   @override
   List<Object> get props => [];
 }
