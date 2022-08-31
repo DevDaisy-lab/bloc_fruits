@@ -33,7 +33,10 @@ The widgets **CartList** has access to the current state of the cart (**CartBloc
 
 This directory contains of the app **Text Style:** ***fontFamily***, ***fontWeight***, ***fontSize*** and ***text color***.
 
-![](https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/1ios.png)
-![](https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/2ios.png)
-![](https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/3ios.png)
+# IOS Platform
+<p align="left">
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/1ios.png" width="300" height="600"/> 
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/2ios.png" width="300"height="600"/> 
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/3ios.png" width="300" height="600"/>
+</p>
 
