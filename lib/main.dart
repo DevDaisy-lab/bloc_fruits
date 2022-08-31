@@ -15,7 +15,6 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    print(MyList);
     //MultiBlocProvider allows conveniently providing multiple objects.
     //MultiBlocProvider is a Flutter widget that merges multiple
     // BlocProvider widgets into one.
