@@ -20,7 +20,10 @@ class CartList extends StatelessWidget {
           return ListView.builder(
             itemCount: state.fruits.length,
             itemBuilder: (context, index) => ListTile(
-              leading: Icon(Icons.done),
+              leading: Icon(
+                Icons.done,
+                color: Colors.white,
+              ),
               title: Text(
                 state.fruits[index].name!,
                 style: textTheme4,

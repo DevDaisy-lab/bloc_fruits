@@ -34,8 +34,8 @@ class AddButton extends StatelessWidget {
                   child: state.fruits.contains(fruit)
                       ? const Icon(
                           Icons.check,
+                          color: Colors.indigo,
                           semanticLabel: 'Added',
-                          color: Colors.white,
                         )
                       : Container(
                           padding: const EdgeInsets.all(5),
@@ -56,7 +56,8 @@ class AddButton extends StatelessWidget {
                           .add(AddFruit(fruit)),
                   splashColor: Theme.of(context).primaryColor,
                   child: state.fruits.contains(fruit)
-                      ? Icon(Icons.check, semanticLabel: 'Added')
+                      ? Icon(Icons.check,
+                          color: Colors.indigo, semanticLabel: 'Added')
                       : Container(
                           padding: EdgeInsets.all(5),
                           color: Colors.indigo[400],

@@ -17,7 +17,7 @@ final myAppTheme = ThemeData(
     ),
     headline3: TextStyle(
       fontFamily: 'Arimo',
-      fontWeight: FontWeight.w400,
+      fontWeight: FontWeight.w600,
       fontSize: 16,
       color: Colors.indigo,
     ),
@@ -29,7 +29,7 @@ final myAppTheme = ThemeData(
     ),
     headline1: TextStyle(
       fontFamily: 'Arimo',
-      fontWeight: FontWeight.w400,
+      fontWeight: FontWeight.w600,
       fontSize: 16,
       color: Colors.white,
     ),
