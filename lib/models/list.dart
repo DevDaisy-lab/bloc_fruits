@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 
-import 'fruit_skeleton.dart';
+import 'fruit.dart';
 
 class ListModel extends Equatable {
   static const _fruitNames = [

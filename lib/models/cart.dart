@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import './list_model.dart';
+import 'list.dart';
 
 @immutable
 class CartModel extends Equatable {
@@ -9,7 +9,7 @@ class CartModel extends Equatable {
 
   CartModel(this._list, CartModel previous)
       : assert(_list != null),
-        _fruitIds = previous?._fruitIds ?? [];
+        _fruitIds = previous._fruitIds;
 
   @override
   List<Object> get props => [_list, _fruitIds];

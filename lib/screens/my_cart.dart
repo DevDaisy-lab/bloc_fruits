@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/cart_screen/cart_list.dart';
-import '../widgets/cart_screen/cart_total.dart';
+import '../widgets/cart/cart_list.dart';
+import '../widgets/cart/cart_total.dart';
 
 class MyCart extends StatelessWidget {
   @override

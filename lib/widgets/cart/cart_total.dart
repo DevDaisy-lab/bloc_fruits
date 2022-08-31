@@ -7,7 +7,8 @@ import 'package:blocfruits/bloc/cart_bloc.dart';
 class CartTotal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var priceStyle = Theme.of(context).textTheme.display4;
+    var priceStyle = Theme.of(context).textTheme.headline4;
+    var textTheme3 = Theme.of(context).textTheme.headline3;
 
     return SizedBox(
       height: 200,
@@ -33,7 +34,7 @@ class CartTotal extends StatelessWidget {
               color: Colors.white,
               child: Text(
                 'BUY',
-                style: TextStyle(color: Colors.indigo[500]),
+                style: textTheme3,
               ),
             ),
           ],

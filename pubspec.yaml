@@ -4,13 +4,13 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: 3.2.0
-  equatable: ^1.0.0
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.0
 
   cupertino_icons: ^0.1.2
 
@@ -38,8 +38,8 @@ flutter:
     - assets/images/pineapple.jpg
     - assets/images/watermelon.jpg
 
-
-    - family: Arimo
-      fonts:
-            - asset: assets/fonts/Arimo-Regular.ttf
-
+  fonts:
+     - family: Arimo
+       fonts:
+        - asset: assets/fonts/Arimo-Regular.ttf
+          weight: 700  

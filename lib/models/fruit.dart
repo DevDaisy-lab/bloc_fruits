@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 @immutable
 class Fruit extends Equatable {
-  final int id;
-  final String name;
-  final String image;
+  final int? id;
+  final String? name;
+  final String? image;
   final int price = 15;
 
   Fruit(this.id, this.name, this.image);

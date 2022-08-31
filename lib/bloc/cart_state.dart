@@ -13,7 +13,7 @@ class CartLoading extends CartState {
 class CartLoaded extends CartState {
   final List<Fruit> fruits;
 
-  const CartLoaded({this.fruits});
+  const CartLoaded({this.fruits = const <Fruit>[]});
 
   int get totalPrice =>
       fruits.fold(0, (total, current) => total + current.price);
