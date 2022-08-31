@@ -29,11 +29,14 @@ class CartTotal extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Scaffold.of(context).showSnackBar(
-                    SnackBar(content: Text('Buying not supported yet.')));
+                  const SnackBar(
+                    content: Text('Buying not supported yet.'),
+                  ),
+                );
               },
               color: Colors.white,
               child: Text(
-                'BUY',
+                'Buy',
                 style: textTheme3,
               ),
             ),
