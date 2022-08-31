@@ -40,3 +40,11 @@ This directory contains of the app **Text Style:** ***fontFamily***, ***fontWeig
 <img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/3ios.png" width="300" height="600"/>
 </p>
 
+# Android Platform
+<p align="left" >
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/1android.png" width="250" height="580" hspace="40"/> 
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/2android.png" width="250"height="580"/> 
+<img src="https://github.com/CodingFlutter/bloc_fruits/blob/master/assets/images/3android.png" width="250" height="580" hspace="40"/>
+</p> 
+
+
