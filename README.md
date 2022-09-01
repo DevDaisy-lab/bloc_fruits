@@ -24,10 +24,14 @@ This directory contains the model classes: **ListModel**, **CartModel** and an o
 
 This directory contains widgets (**MyFruitItem**, **AddButton**, **CartList**, and **CartTotal**) used to construct the two screens of the app: ***a list of fruits and a cart***.
 
-A widget **AddButton** has access to the **CartBloc** and **CartState** via **BlocBuilder** It's handles building the widget in response to new state. In this case the fruit is added to the **Cart** screen on the button press and instead the button the check icon appears.
+A widget **MyFruitItem** represent the item of fruit with **AddButton**.
 
-The widgets **AddButton** has access to the current state of the cart (**CartBloc** and **CartState**) via **BlocProvider**.
-The widgets **CartList** has access to the current state of the cart (**CartBloc** and **CartState**) via **BlocBuilder**.
+A widget **AddButton** has access to the **CartBloc** and **CartState** via **BlocBuilder** The **BlocBuilder** handles widgets building in response to new state. In this case on the button press instead the button the check icon appears and **CartState** updates. 
+
+
+The widgets **CartList** has access to the **CartBloc** and **CartState** via **BlocBuilder**. The **BlocBuilder** rebuilds **Cart** screen after **CartState** updates on the press button.
+
+The widgets **CartTotal** has access to the **CartBloc** and **CartState** via **BlocBuilder**. The **BlocBuilder** rebuilds total price after **CartState** updates on the press button.
 
 # lib/style/*
 
