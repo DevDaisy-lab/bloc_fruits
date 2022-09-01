@@ -1,6 +1,6 @@
 # bloc_fruits
 
-A flutter app sample, **Bloc Fruits**, shows a state management approach using **Flutter bloc** and **Equatable** packages. The app has two separate screens: ***a list of fruits and a cart***. The list of fruits represented by the **MyList** widget and the cart represented by the **MyCart** widget. The list of fruits screen includes the app bar (**MyAppBar**) and a scrolling view of many fruit items (**MyFruitItem**). The cart screen includes list of added fruits (**CartList**) and total price of added fruits (**CartTotal**).
+A flutter app sample, **Bloc Fruits**, shows a state management approach using **Flutter bloc** and **Equatable** (overrides == and hashCode) packages. The app has two separate screens: ***a list of fruits and a cart***. The list of fruits represented by the **MyList** widget and the cart represented by the **MyCart** widget. The list of fruits screen includes the app bar (**MyAppBar**) and a scrolling view of many fruit items (**MyFruitItem**). The cart screen includes list of added fruits (**CartList**) and total price of added fruits (**CartTotal**).
 
 This is **a widget tree** of the **Bloc Fruits** app:
 
