@@ -20,7 +20,7 @@ This directory contains the blocs: **ListBloc** and **CartBloc**, events: **List
 
 This directory contains the model classes: **ListModel**, **CartModel** and an object **Fruit** skeleton.
 # lib/screens/*
-This directory contains widgets **MyList** and **MyCart**. They represents two different screens: list of fruit items and cart. 
+This directory contains widgets **MyList** and **MyCart**. They represents two different screens: a ***list of fruit items and cart***. 
 
 A widget **MyList** containes list of **MyListFruit**, builded by **BlockBuilder<ListBloc, ListState>** on state **ListLoaded**, every fruit item is listed by it's position index (**state.myList.getByPosition(index)**). 
 
